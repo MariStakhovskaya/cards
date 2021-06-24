@@ -1,0 +1,23 @@
+.superInput {
+    border: 1px solid darkseagreen;
+    border-radius: 5px;
+    box-shadow:0 0 11px darkseagreen;
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.errorInput {
+    border: 1px solid darkred;
+    border-radius: 5px;
+    box-shadow:0 0 11px darkred;
+    padding: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.error {
+    color: red;
+}

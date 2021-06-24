@@ -1,0 +1,23 @@
+.default {
+    background-color: #68f1997a;
+    border: none;
+    color: #4a3d50;
+    padding: 8px 33px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 0;
+}
+
+button:hover {
+    background-color: #1ae3627a;
+}
+
+.red {
+    background: red;
+}
+
