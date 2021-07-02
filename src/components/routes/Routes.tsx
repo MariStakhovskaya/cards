@@ -4,9 +4,10 @@ import {Test} from "../../pages/test/Test";
 import Login from "../../pages/login/Login";
 import NewPassword from "../../pages/newPassword/NewPassword";
 import Profile from "../../pages/profile/Profile";
-import Registration from "../../pages/registration/Registration";
 import Error404 from "../../pages/error404/Error404";
-import RecoverPassword from "../../pages/recoverPassword/RecoverPassword";
+import {Registration} from "../../pages/registration/Registration";
+import {ResetPassword} from "../../pages/recoverPassword/RecoverPassword";
+
 
 export const PATH = {
     LOGIN: '/login',
@@ -30,7 +31,7 @@ export const Routes = () => {
                 <Route path={PATH.REGISTRATION} render={() => <Registration />}/>
                 <Route path={PATH.NEW_PASSWORD} render={() => <NewPassword />}/>
                 <Route path={PATH.PROFILE} render={() => <Profile />}/>
-                <Route path={PATH.PASSWORD_RECOVERY} render={() => <RecoverPassword />}/>
+                <Route path={PATH.PASSWORD_RECOVERY} render={() => <ResetPassword />}/>
                 <Route exact path={PATH.TEST_COMPONENT} render={() => <Test />}/>
                 <Route path={PATH.ERROR_404} render={() => <Error404 />}/>
                 <Redirect from={'*'} to={PATH.ERROR_404}/>
